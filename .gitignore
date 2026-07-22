@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment files
+.env
+
+# Playwright artifacts
+playwright-report/
+test-results/
+
+# Data outputs and logs
+data/output/*.json
+data/logs/*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*.log

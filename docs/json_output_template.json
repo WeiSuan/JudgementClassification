@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "source_file": "SCC_設備業退緩議_僅公司_2301至2606.xlsx",
+    "generated_at": "2026-07-21T00:00:00Z",
+    "crawler": "playwright",
+    "site": "https://judgment.judicial.gov.tw/FJUD/default.aspx"
+  },
+  "records": [
+    {
+      "receive_dates": [
+        "2024-01-15"
+      ],
+      "customer_name": "麗展能源有限公司",
+      "customer_key": "麗展能源有限公司",
+      "query_status": "FOUND",
+      "query_note": "",
+      "judgments": [
+        {
+          "judgment_id": "112年度上字第123號",
+          "judgment_date": "2024-06-20",
+          "case_type": "損害賠償",
+          "full_text": "...判決書內文...",
+          "source_url": "https://judgment.judicial.gov.tw/..."
+        }
+      ]
+    },
+    {
+      "receive_dates": [
+        "2024-02-01"
+      ],
+      "customer_name": "示例公司",
+      "customer_key": "示例公司",
+      "query_status": "NO_DATA",
+      "query_note": "查無資料",
+      "judgments": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[project]
+name = "judgment-crawler"
+version = "0.1.0"
+description = "Judicial judgment crawler project scaffold"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

@@ -1,0 +1,23 @@
+input:
+  file_path: data/input/SCC_設備業退緩議_僅公司_2301至2606.xlsx
+  date_field: receive_date
+  customer_field: customer_name
+  date_format: "%Y-%m-%d"
+
+crawler:
+  base_url: https://judgment.judicial.gov.tw/FJUD/default.aspx
+  headless: true
+  timeout_ms: 30000
+  max_retries: 3
+  request_interval_seconds: 2
+
+preprocess:
+  normalize_whitespace: true
+  strip_symbols: false
+  deduplicate_by:
+    - customer_name
+
+output:
+  format: json
+  path: data/output/judgment_results.json
+  encoding: utf-8
