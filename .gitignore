@@ -20,7 +20,9 @@ playwright-report/
 test-results/
 
 # Data outputs and logs
+data/input/*.xlsx
 data/output/*.json
+data/output/*.xlsx
 data/logs/*.log
 
 # OS / editor
